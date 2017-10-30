@@ -1,0 +1,101 @@
+body {
+  background-color: rgba(0,0,0,0);/* #7 changed background color to white */
+  color: rgba(51,51,51,100);
+  font-size: 16px;/* #2 set default value for font size */
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  background-color: rgba(0,0,0,.5);
+  color: rgba(255,255,255,255);
+  float: left;
+  position: fixed;
+  width: 100%;
+  font-size: 1.25rem; /* 20px */
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+  font-size: 70%
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* #3 Applied appropriate font size to typography to accurately weight importance */
+h1 {
+  font-size: 2.5rem;/* 40px */
+}
+h3 {
+  font-size: 1.2rem;
+}
+.author {
+  margin-top: 3px;
+}
+
+figure {
+  font-size: .65rem;
+  text-align: absolute;
+}
+
+figure, h3
+{color:rgba(155,155,155,100);
+ }
+  /* #4 used line height to make main text more readable */
+header {
+  line-height:1.4;
+}
+h3{
+  line-height: 1.2;
+}
+p {
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+
+/* #6 Edit links to remove underline but display interactivity */
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:rgba(255,255,255,100); } /* unvisited */
+a:visited { color:rgba(255,255,255,100); } /* visited */
+a:hover { color:rgba(255,255,255,100); } /* mouse over */
+a:active { color:rgba(255,255,255,100); } /* selected */
+}
